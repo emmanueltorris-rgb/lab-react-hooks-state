@@ -48,3 +48,4 @@ test('adds items to cart', () => {
   expect(screen.getByText(/shopping cart/i)).toBeInTheDocument()
   expect(screen.getByText(/Milk is in your cart/i)).toBeInTheDocument()
 })
+indexTest.js
